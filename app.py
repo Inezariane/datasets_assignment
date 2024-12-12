@@ -7,7 +7,7 @@ import pandas as pd
 app = FastAPI()
 
 
-DATABASE_URL = "postgresql://postgres:12345@localhost:5432/datasetone"
+DATABASE_URL = "postgresql://postgres:password@localhost:5432/database_name"
 TABLE_NAME = "employee_data"  
 
 engine = create_engine(DATABASE_URL)
